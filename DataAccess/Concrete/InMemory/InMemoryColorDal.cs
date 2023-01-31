@@ -3,6 +3,7 @@ using Entities.Concrete;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -41,14 +42,14 @@ namespace DataAccess.Concrete.InMemory
             _colors.Remove(colorToDelete);
         }
 
-        public List<Color> GetAll()
+        public List<Color> GetAll(Expression<Func<Color, bool>> filter = null)
         {
-            return _colors;
+            throw new NotImplementedException();
         }
 
-        public Color GetById(int id)
+        public Color Get(Expression<Func<Color, bool>> filter)
         {
-            return _colors.SingleOrDefault(c=>c.Id == id);
+            throw new NotImplementedException();
         }
     }
 }

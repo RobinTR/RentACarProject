@@ -3,6 +3,7 @@ using Entities.Concrete;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -40,14 +41,14 @@ namespace DataAccess.Concrete.InMemory
             _brands.Remove(brandToDelete);
         }
 
-        public List<Brand> GetAll()
+        public List<Brand> GetAll(Expression<Func<Brand, bool>> filter = null)
         {
-            return _brands;
+            throw new NotImplementedException();
         }
 
-        public Brand GetById(int id)
+        public Brand Get(Expression<Func<Brand, bool>> filter)
         {
-            return _brands.SingleOrDefault(b=>b.Id == id);
+            throw new NotImplementedException();
         }
     }
 }

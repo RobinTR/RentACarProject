@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\RobN\\Desktop\\C#\\Vs\\CampHomeworks\\Day7\\ReCapProject2023\\ConsoleUI\\ConsoleUI.csproj": {}
+    "C:\\Users\\RobN\\Desktop\\C#\\Vs\\CampHomeworks\\Day8\\ReCapProject2023\\ConsoleUI\\ConsoleUI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\RobN\\Desktop\\C#\\Vs\\CampHomeworks\\Day7\\ReCapProject2023\\Business\\Business.csproj": {
+    "C:\\Users\\RobN\\Desktop\\C#\\Vs\\CampHomeworks\\Day8\\ReCapProject2023\\Business\\Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\RobN\\Desktop\\C#\\Vs\\CampHomeworks\\Day7\\ReCapProject2023\\Business\\Business.csproj",
+        "projectUniqueName": "C:\\Users\\RobN\\Desktop\\C#\\Vs\\CampHomeworks\\Day8\\ReCapProject2023\\Business\\Business.csproj",
         "projectName": "Business",
-        "projectPath": "C:\\Users\\RobN\\Desktop\\C#\\Vs\\CampHomeworks\\Day7\\ReCapProject2023\\Business\\Business.csproj",
+        "projectPath": "C:\\Users\\RobN\\Desktop\\C#\\Vs\\CampHomeworks\\Day8\\ReCapProject2023\\Business\\Business.csproj",
         "packagesPath": "C:\\Users\\RobN\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\RobN\\Desktop\\C#\\Vs\\CampHomeworks\\Day7\\ReCapProject2023\\Business\\obj\\",
+        "outputPath": "C:\\Users\\RobN\\Desktop\\C#\\Vs\\CampHomeworks\\Day8\\ReCapProject2023\\Business\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\RobN\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,11 +28,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\RobN\\Desktop\\C#\\Vs\\CampHomeworks\\Day7\\ReCapProject2023\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "C:\\Users\\RobN\\Desktop\\C#\\Vs\\CampHomeworks\\Day7\\ReCapProject2023\\DataAccess\\DataAccess.csproj"
+              "C:\\Users\\RobN\\Desktop\\C#\\Vs\\CampHomeworks\\Day8\\ReCapProject2023\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\Users\\RobN\\Desktop\\C#\\Vs\\CampHomeworks\\Day8\\ReCapProject2023\\DataAccess\\DataAccess.csproj"
               },
-              "C:\\Users\\RobN\\Desktop\\C#\\Vs\\CampHomeworks\\Day7\\ReCapProject2023\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\RobN\\Desktop\\C#\\Vs\\CampHomeworks\\Day7\\ReCapProject2023\\Entities\\Entities.csproj"
+              "C:\\Users\\RobN\\Desktop\\C#\\Vs\\CampHomeworks\\Day8\\ReCapProject2023\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\RobN\\Desktop\\C#\\Vs\\CampHomeworks\\Day8\\ReCapProject2023\\Entities\\Entities.csproj"
               }
             }
           }
@@ -66,14 +66,14 @@
         }
       }
     },
-    "C:\\Users\\RobN\\Desktop\\C#\\Vs\\CampHomeworks\\Day7\\ReCapProject2023\\ConsoleUI\\ConsoleUI.csproj": {
+    "C:\\Users\\RobN\\Desktop\\C#\\Vs\\CampHomeworks\\Day8\\ReCapProject2023\\ConsoleUI\\ConsoleUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\RobN\\Desktop\\C#\\Vs\\CampHomeworks\\Day7\\ReCapProject2023\\ConsoleUI\\ConsoleUI.csproj",
+        "projectUniqueName": "C:\\Users\\RobN\\Desktop\\C#\\Vs\\CampHomeworks\\Day8\\ReCapProject2023\\ConsoleUI\\ConsoleUI.csproj",
         "projectName": "ConsoleUI",
-        "projectPath": "C:\\Users\\RobN\\Desktop\\C#\\Vs\\CampHomeworks\\Day7\\ReCapProject2023\\ConsoleUI\\ConsoleUI.csproj",
+        "projectPath": "C:\\Users\\RobN\\Desktop\\C#\\Vs\\CampHomeworks\\Day8\\ReCapProject2023\\ConsoleUI\\ConsoleUI.csproj",
         "packagesPath": "C:\\Users\\RobN\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\RobN\\Desktop\\C#\\Vs\\CampHomeworks\\Day7\\ReCapProject2023\\ConsoleUI\\obj\\",
+        "outputPath": "C:\\Users\\RobN\\Desktop\\C#\\Vs\\CampHomeworks\\Day8\\ReCapProject2023\\ConsoleUI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\RobN\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -90,14 +90,14 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\RobN\\Desktop\\C#\\Vs\\CampHomeworks\\Day7\\ReCapProject2023\\Business\\Business.csproj": {
-                "projectPath": "C:\\Users\\RobN\\Desktop\\C#\\Vs\\CampHomeworks\\Day7\\ReCapProject2023\\Business\\Business.csproj"
+              "C:\\Users\\RobN\\Desktop\\C#\\Vs\\CampHomeworks\\Day8\\ReCapProject2023\\Business\\Business.csproj": {
+                "projectPath": "C:\\Users\\RobN\\Desktop\\C#\\Vs\\CampHomeworks\\Day8\\ReCapProject2023\\Business\\Business.csproj"
               },
-              "C:\\Users\\RobN\\Desktop\\C#\\Vs\\CampHomeworks\\Day7\\ReCapProject2023\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "C:\\Users\\RobN\\Desktop\\C#\\Vs\\CampHomeworks\\Day7\\ReCapProject2023\\DataAccess\\DataAccess.csproj"
+              "C:\\Users\\RobN\\Desktop\\C#\\Vs\\CampHomeworks\\Day8\\ReCapProject2023\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\Users\\RobN\\Desktop\\C#\\Vs\\CampHomeworks\\Day8\\ReCapProject2023\\DataAccess\\DataAccess.csproj"
               },
-              "C:\\Users\\RobN\\Desktop\\C#\\Vs\\CampHomeworks\\Day7\\ReCapProject2023\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\RobN\\Desktop\\C#\\Vs\\CampHomeworks\\Day7\\ReCapProject2023\\Entities\\Entities.csproj"
+              "C:\\Users\\RobN\\Desktop\\C#\\Vs\\CampHomeworks\\Day8\\ReCapProject2023\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\RobN\\Desktop\\C#\\Vs\\CampHomeworks\\Day8\\ReCapProject2023\\Entities\\Entities.csproj"
               }
             }
           }
@@ -131,14 +131,14 @@
         }
       }
     },
-    "C:\\Users\\RobN\\Desktop\\C#\\Vs\\CampHomeworks\\Day7\\ReCapProject2023\\DataAccess\\DataAccess.csproj": {
+    "C:\\Users\\RobN\\Desktop\\C#\\Vs\\CampHomeworks\\Day8\\ReCapProject2023\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\RobN\\Desktop\\C#\\Vs\\CampHomeworks\\Day7\\ReCapProject2023\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\RobN\\Desktop\\C#\\Vs\\CampHomeworks\\Day8\\ReCapProject2023\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "C:\\Users\\RobN\\Desktop\\C#\\Vs\\CampHomeworks\\Day7\\ReCapProject2023\\DataAccess\\DataAccess.csproj",
+        "projectPath": "C:\\Users\\RobN\\Desktop\\C#\\Vs\\CampHomeworks\\Day8\\ReCapProject2023\\DataAccess\\DataAccess.csproj",
         "packagesPath": "C:\\Users\\RobN\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\RobN\\Desktop\\C#\\Vs\\CampHomeworks\\Day7\\ReCapProject2023\\DataAccess\\obj\\",
+        "outputPath": "C:\\Users\\RobN\\Desktop\\C#\\Vs\\CampHomeworks\\Day8\\ReCapProject2023\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\RobN\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -155,8 +155,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\RobN\\Desktop\\C#\\Vs\\CampHomeworks\\Day7\\ReCapProject2023\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\RobN\\Desktop\\C#\\Vs\\CampHomeworks\\Day7\\ReCapProject2023\\Entities\\Entities.csproj"
+              "C:\\Users\\RobN\\Desktop\\C#\\Vs\\CampHomeworks\\Day8\\ReCapProject2023\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\RobN\\Desktop\\C#\\Vs\\CampHomeworks\\Day8\\ReCapProject2023\\Entities\\Entities.csproj"
               }
             }
           }
@@ -170,6 +170,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -190,14 +196,14 @@
         }
       }
     },
-    "C:\\Users\\RobN\\Desktop\\C#\\Vs\\CampHomeworks\\Day7\\ReCapProject2023\\Entities\\Entities.csproj": {
+    "C:\\Users\\RobN\\Desktop\\C#\\Vs\\CampHomeworks\\Day8\\ReCapProject2023\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\RobN\\Desktop\\C#\\Vs\\CampHomeworks\\Day7\\ReCapProject2023\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Users\\RobN\\Desktop\\C#\\Vs\\CampHomeworks\\Day8\\ReCapProject2023\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\Users\\RobN\\Desktop\\C#\\Vs\\CampHomeworks\\Day7\\ReCapProject2023\\Entities\\Entities.csproj",
+        "projectPath": "C:\\Users\\RobN\\Desktop\\C#\\Vs\\CampHomeworks\\Day8\\ReCapProject2023\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\RobN\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\RobN\\Desktop\\C#\\Vs\\CampHomeworks\\Day7\\ReCapProject2023\\Entities\\obj\\",
+        "outputPath": "C:\\Users\\RobN\\Desktop\\C#\\Vs\\CampHomeworks\\Day8\\ReCapProject2023\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\RobN\\AppData\\Roaming\\NuGet\\NuGet.Config",
