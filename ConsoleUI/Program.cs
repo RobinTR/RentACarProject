@@ -10,21 +10,32 @@ namespace ConsoleUI
         static void Main(string[] args)
         {
             CarManager carManager = new CarManager(new EfCarDal());
-            Console.WriteLine(carManager.GetById(1).Description);
 
-            Car car = new Car() { BrandId = 3, ColorId = 3 , Description = "a"};
-            Car car2 = new Car { BrandId = 3, ColorId = 3, ModelYear = 2023, Description = "XC60", DailyPrice = 10000};
-            //carManager.Add(car);//Hata verir geçersiz iş kuralı.
-            //carManager.Add(car2);//Sorunsuz eklendi veri tabanına.
+            Car car = new Car { BrandId = 2, ColorId = 1009, ModelYear = 2020, Description = "Test", DailyPrice = 6000};
+            //carManager.Add(car);
+            //carManager.Delete(carManager.GetById(1004));
+            
 
-            Color color = new Color { Name = "Gray"};
+            Color color = new Color { Name = "Yellow"};
 
             ColorManager colorManager = new ColorManager(new EfColorDal());
             //colorManager.Add(color);
-            Console.WriteLine(colorManager.GetById(5).Name);
+            colorManager.Update(new Color { Id = 1006, Name = "RED" });
+            Console.WriteLine(colorManager.GetById(1006).Name);
+
+            foreach (var item in colorManager.GetAll())
+            {
+                Console.WriteLine(item.Name);
+            }
+
+            Console.WriteLine("--Car Details--");
+            foreach (var item in carManager.GetCarDetails())
+            {
+                Console.WriteLine(item.CarName + " - " + item.BrandName + " - " + item.ColorName);
+            }
         }
 
-        /*private static void InMemoryTest()
+        private static void InMemoryTest()
         {
             Brand brand = new Brand() { Id = 4, Name = "Chevrolet" };
             Color color = new Color() { Id = 4, Name = "Green" };
@@ -49,6 +60,6 @@ namespace ConsoleUI
                 Console.WriteLine(c.Description);
             }
             Console.WriteLine("-------Cars-------");
-        }*/
+        }
     }
 }
