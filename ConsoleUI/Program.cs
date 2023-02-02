@@ -11,25 +11,30 @@ namespace ConsoleUI
         {
             CarManager carManager = new CarManager(new EfCarDal());
 
-            Car car = new Car { BrandId = 2, ColorId = 1009, ModelYear = 2020, Description = "Test", DailyPrice = 6000};
+            Car car = new Car { BrandId = 2, ColorId = 1009, ModelYear = 2020, Description = "Test", DailyPrice = 6000 };
             //carManager.Add(car);
             //carManager.Delete(carManager.GetById(1004));
-            
 
-            Color color = new Color { Name = "Yellow"};
+
+            Color color = new Color { Name = "Yellow" };
 
             ColorManager colorManager = new ColorManager(new EfColorDal());
             //colorManager.Add(color);
             colorManager.Update(new Color { Id = 1006, Name = "RED" });
-            Console.WriteLine(colorManager.GetById(1006).Name);
+            Console.WriteLine(colorManager.GetById(1006).Data.Name);
 
-            foreach (var item in colorManager.GetAll())
+            var result = colorManager.GetAll();
+
+            if (result.Success)
             {
-                Console.WriteLine(item.Name);
+                foreach (var item in result.Data)
+                {
+                    Console.WriteLine(item.Name);
+                }
             }
 
             Console.WriteLine("--Car Details--");
-            foreach (var item in carManager.GetCarDetails())
+            foreach (var item in carManager.GetCarDetails().Data)
             {
                 Console.WriteLine(item.CarName + " - " + item.BrandName + " - " + item.ColorName);
             }
@@ -50,12 +55,12 @@ namespace ConsoleUI
             CarManager carManager = new CarManager(new InMemoryCarDal());
             carManager.Add(car);
 
-            Console.WriteLine(carManager.GetById(4).Description);
-            Console.WriteLine(brandManager.GetById(4).Name);
-            Console.WriteLine(colorManager.GetById(4).Name);
+            Console.WriteLine(carManager.GetById(4).Data.Description);
+            Console.WriteLine(brandManager.GetById(4).Data.Name);
+            Console.WriteLine(colorManager.GetById(4).Data.Name);
 
             Console.WriteLine("-------Cars-------");
-            foreach (Car c in carManager.GetAll())
+            foreach (Car c in carManager.GetAll().Data)
             {
                 Console.WriteLine(c.Description);
             }
