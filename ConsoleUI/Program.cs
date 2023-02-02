@@ -9,6 +9,23 @@ namespace ConsoleUI
     {
         static void Main(string[] args)
         {
+            User user = new User { FirstName = "Mem Robin", LastName = "Çen", Email = "test@gmail.com", Password = "123456" };
+            Customer customer = new Customer { UserId = 1, CompanyName = "Kodlama.io" };
+            Rental rental = new Rental { CarId = 1002, CustomerId = 1, RentDate = DateTime.Now};
+
+            UserManager userManager = new UserManager(new EfUserDal());
+            userManager.Add(user);
+
+            CustomerManager customerManager = new CustomerManager(new EfCustomerDal());
+            customerManager.Add(customer);
+
+            RentalManager rentalManager = new RentalManager(new EfRentalDal());
+            var result = rentalManager.Add(rental);
+            Console.WriteLine(result.Message);
+        }
+
+        private static void EfTest()
+        {
             CarManager carManager = new CarManager(new EfCarDal());
 
             Car car = new Car { BrandId = 2, ColorId = 1009, ModelYear = 2020, Description = "Test", DailyPrice = 6000 };
