@@ -76,9 +76,9 @@ namespace WebAPI
 
             app.UseHttpsRedirection();
 
-            app.UseAuthorization();
+			app.UseAuthentication();
 
-            app.UseAuthentication();
+            app.UseAuthorization();
 
             app.MapControllers();
 
