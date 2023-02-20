@@ -1,4 +1,5 @@
 ﻿using Business.Concrete;
+using Core.Entities.Concrete;
 using DataAccess.Concrete.EntityFramework;
 using DataAccess.Concrete.InMemory;
 using Entities.Concrete;
@@ -9,12 +10,12 @@ namespace ConsoleUI
     {
         static void Main(string[] args)
         {
-            User user = new User { FirstName = "Mem Robin", LastName = "Çen", Email = "test@gmail.com", Password = "123456" };
+            //User user = new User { FirstName = "Mem Robin", LastName = "Çen", Email = "test@gmail.com", Password = "123456" };
             Customer customer = new Customer { UserId = 1, CompanyName = "Kodlama.io" };
             Rental rental = new Rental { CarId = 1002, CustomerId = 1, RentDate = DateTime.Now};
 
             UserManager userManager = new UserManager(new EfUserDal());
-            userManager.Add(user);
+            //userManager.Add(user);
 
             CustomerManager customerManager = new CustomerManager(new EfCustomerDal());
             customerManager.Add(customer);
