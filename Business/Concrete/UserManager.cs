@@ -11,6 +11,7 @@ using Business.ValidationRules.FluentValidation;
 using Core.Aspects.Autofac.Validation;
 using Core.Entities.Concrete;
 using FluentValidation.Validators;
+using Core.Aspects.Autofac.Performance;
 
 namespace Business.Concrete
 {
@@ -45,8 +46,10 @@ namespace Business.Concrete
             return new SuccessResult(Messages.UserDeleted);
         }
 
+        //PerformanceAspect Test [PerformanceAspect(3)]
         public IDataResult<List<User>> GetAll()
         {
+            //PerformanceAspect Test Thread.Sleep(4000);
             return new SuccessDataResult<List<User>>(_userDal.GetAll(), Messages.UsersListed);
         }
 
